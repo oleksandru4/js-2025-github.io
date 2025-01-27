@@ -1,0 +1,28 @@
+table.customTable {
+  width: 350px;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 0px;
+  border-color: #7EA8F8;
+  border-style: solid;
+  color: #000000;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 0px;
+  border-color: #7EA8F8;
+  border-style: solid;
+  padding: 1px;
+}
+
+table.customTable thead {
+  background-color: #FFFFFF;
+}
+
+table.customTable tr.delimiter{
+  border-top: 1px solid black;  
+}
+
+table.customTable td.text-right{
+    text-align: right;
+}
