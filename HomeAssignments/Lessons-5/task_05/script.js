@@ -16,7 +16,7 @@ let renderHTML = `
 				Створити 10 елементів для введення цін продуктів.
 			</p>			
 		</div>
-		<div class="row row-cols-lg-2 row-cols-md-2">
+		<div class="row row-cols-lg-3 row-cols-md-2">
 			<div class="col">
 				${result}
 			</div>
