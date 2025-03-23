@@ -1,12 +1,6 @@
 // v.1
-// function getYear({day, month, year}, monthAdd) {
-//   return year + Math.floor((month + monthAdd - 1) / 12)
-// }
-
-// v.2 
 function getYear({day, month, year}, monthAdd) {
-  let date = new Date(year, month+monthAdd, day)
-  return date.getFullYear()
+  return year + Math.floor((month + monthAdd - 1) / 12)
 }
 
 
