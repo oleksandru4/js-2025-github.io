@@ -15,7 +15,7 @@ window.onload = function() {
     addEvent(document.querySelectorAll('input'))
     addEvent(document.querySelectorAll('select'))
 
-/* v-1: спочатку все скидається в один масив, а потім передором вішається обробник на onchange
+/* v-1: спочатку все скидається в один масив, а потім перебором вішається обробник на onchange
     Array.from(document.querySelectorAll('input'))
         .concat(Array.from(document.querySelectorAll('select')))
         .forEach(el=> el.onchange = calculateTotalCost)
