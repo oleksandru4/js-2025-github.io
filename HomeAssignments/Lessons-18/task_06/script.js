@@ -1,8 +1,3 @@
-/* 6: The user specifies the number of grades and clicks the “get table” button.
- As a result, a table with input is formed, where the user enters the grades. 
- After that, he clicks the “get sum” button and finds the average value.
-*/
-
 function changeRating() {
     let containerTable = document.querySelector('.render-table')
     let span = containerTable.querySelector('.average-value')
